@@ -13,6 +13,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
+app.get("/", (req, res) => {
+  res.send("Backend API is running...");
+});
+
 app.use("/api/v1", routes);
 
 const port = process.env.PORT || 5000;
@@ -28,5 +32,3 @@ mongoose.connect(process.env.MONGODB_URL).then(() => {
   console.log({ err });
   process.exit(1);
 });
-
-//test
