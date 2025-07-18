@@ -52,7 +52,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Gilbert Hutapea
+            Aman Arora & Rahul Kumar
           </a>
         </Typography>
       </Paper>
