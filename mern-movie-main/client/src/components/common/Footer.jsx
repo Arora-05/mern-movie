@@ -48,9 +48,6 @@ const Footer = () => {
               textDecoration: 'none',
               color: theme.palette.primary.main
             }}
-            href="https://berthutapea.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Aman Arora & Rahul Kumar
           </a>
